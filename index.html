@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Programmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="valueInput" required placeholder="Enter the value of the parameter">
+        <select name="operation" id="selectBox" required>
+            <option value="" disabled selected hidden>Select Operation</option>
+            <option value="Area">Area</option>
+            <option value="Circumference">Circumference</option>
+            
+        </select>       
+        <button id="calculate" value="Calculate">Calculate</button>
+        <div class="resultContainer">
+        <p  id="resultInput">Result</p>
+        <button class="clear" id="clearBtn">Clear</button>
+    </div>
+    </div>
+
+
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./mathFunctions.js"></script>
+   
+    
+</body>
+</html>
